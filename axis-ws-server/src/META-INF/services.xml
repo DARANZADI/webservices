@@ -1,0 +1,14 @@
+
+<service name="SaludoService">
+    <description>
+        Este es un Hola Mundo
+    </description>
+
+    <parameter name="ServiceClass">com.ipartek.formacion.service.EjemploService</parameter>
+    <operation name="sayHello">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <operation name="ping">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver"/>
+    </operation>
+</service>
