@@ -1,0 +1,8 @@
+<java classname="org.apache.cxf.tools.misc.XSDToWSDL" fork="true">
+  <arg value="-t"/>
+  <arg value="http://cxf.apache.org/demos"/>
+  <arg value="MyXSD.xsd"/>
+  <classpath>
+    <path refid="fsf.classpath"/>
+  </classpath>
+</java>

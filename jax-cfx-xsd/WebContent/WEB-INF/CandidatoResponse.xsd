@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://candidato" 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://candidato">
+	<xsd:element name="candidato">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="codCandidato" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="nombre" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="apellido1" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="apellido2" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="email" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="dni" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
