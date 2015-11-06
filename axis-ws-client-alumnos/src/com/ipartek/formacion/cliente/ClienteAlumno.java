@@ -23,6 +23,7 @@ public class ClienteAlumno {
       GetAlumnoByDniResponseDocument.GetAlumnoByDniResponse dataRes = response
           .getGetAlumnoByDniResponse();
       al = dataRes.getReturn();
+
       System.out.println(al.getNombre());
 
     } catch (Exception e) {
