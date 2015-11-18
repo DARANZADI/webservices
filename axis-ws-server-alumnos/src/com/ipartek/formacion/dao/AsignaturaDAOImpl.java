@@ -24,7 +24,7 @@ public class AsignaturaDAOImpl implements AsignaturaDAO {
 
     asignatura = new Asignatura();
     asignatura.setCodigo("HIST5080");
-    asignatura.setNombre("Historia del País Vasco I");
+    asignatura.setNombre("Historia del PaÃ­s Vasco I");
     asignaturas.add(asignatura);
   }
 
